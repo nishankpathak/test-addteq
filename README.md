@@ -12,7 +12,7 @@ To deploy the application follow below steps:
 
 `sh deploy.sh`
 
-The deployment script copies the build files to the public folder of react application and the whole application runs on a single port  i.e. 3000 in our case. 
+The deployment script copies the build files to the public folder of react application and the whole application runs on a single port  i.e. 3001 in our case. 
 
 Queries:
 is it necessary to implement routing? I didn't found it to be useful in this case.
