@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm install --prefix react-frontend && npm install --prefix express-backend",
+    "deploy": "npm run build --prefix react-frontend &&  npm run prod --prefix express-backend",
+    "start": "npm start --prefix react-frontend && npm start --prefix express-backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
